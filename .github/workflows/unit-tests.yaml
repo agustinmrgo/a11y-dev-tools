@@ -2,9 +2,9 @@ name: Unit tests
 
 on:
   push:
-    branches: [a11y-tools]
+    branches: [main]
   pull_request:
-    branches: [a11y-tools]
+    branches: [main]
 
 jobs:
   build:
