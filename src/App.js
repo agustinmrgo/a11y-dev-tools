@@ -10,6 +10,7 @@ import routes from "./routes";
 const App = () => (
   <BrowserRouter>
     <Switch>
+      <p>HOLA</p>
       <Route
         path={routes.notAccessiblePlaylist()}
         component={NotAccessiblePlaylist}
