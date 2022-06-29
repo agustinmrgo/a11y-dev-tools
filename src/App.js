@@ -10,7 +10,7 @@ import routes from "./routes";
 const App = () => (
   <BrowserRouter>
     <Switch>
-      <p>HOLA</p>
+      <img src="#" />
       <Route
         path={routes.notAccessiblePlaylist()}
         component={NotAccessiblePlaylist}
