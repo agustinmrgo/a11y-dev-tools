@@ -11,6 +11,7 @@ const App = () => (
   <BrowserRouter>
     <Switch>
       <img src="#" />
+      <div role="someRandomRole" />
       <Route
         path={routes.notAccessiblePlaylist()}
         component={NotAccessiblePlaylist}
